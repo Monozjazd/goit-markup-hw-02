@@ -1,21 +1,27 @@
+:root {
+  --brand-color: #2196f3;
+  --main-text-color: #212121;
+  --basic-text-color: #757575;
+  --additional-text-color: #ffffff;
+}
 body {
   font-family: "Roboto", sans-serif;
-
-  color: #212121;
+  background: #e5e5e5;
+  color: var(--main-text-color);
 }
 .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  color: #212121;
+  color: var(---main-text-color);
 }
 
 .social-links .link:hover,
 .social-links .link:focus,
 .social-links .graytxt:hover,
 .social-links .graytxt:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .logo {
@@ -26,7 +32,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .section1 {
   background: #2f303a;
@@ -37,7 +43,7 @@ body {
   text-transform: uppercase;
   line-height: 1.35;
   text-align: center;
-  color: #ffffff;
+  color: var(--additional-text-color);
 }
 
 .button-index {
@@ -47,9 +53,9 @@ body {
   display: flex;
   text-align: center;
   border: none;
-  background-color: #2196f3;
+  background-color: var(--brand-color);
   cursor: pointer;
-  color: #ffffff;
+  color: var(--additional-text-color);
 }
 
 .button-portfolio {
@@ -63,8 +69,8 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--brand-color);
+  color: var(--additional-text-color);
 }
 
 .graytxt {
@@ -72,7 +78,7 @@ body {
   line-height: 1.14;
   font-style: normal;
   text-decoration: none;
-  color: #757575;
+  color: var(--basic-text-color);
 }
 .footer-txt-style {
   font-weight: 500;
@@ -80,11 +86,11 @@ body {
   line-height: 1.14;
   text-decoration: none;
   background-color: #2f303a;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .footer-txt-style .graytxt:hover,
 .footer-txt-style .graytxt:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .h3-style {
@@ -103,20 +109,20 @@ body {
 .p-style {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--basic-text-color);
 }
 
 .description {
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
-  color: #757575;
+  color: var(--basic-text-color);
 }
 
 .stuff {
   font-size: 16px;
   line-height: 1.875;
-  color: #757575;
+  color: var(--basic-text-color);
 }
 
 .ftaddress {
@@ -124,5 +130,5 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--additional-text-color);
 }
