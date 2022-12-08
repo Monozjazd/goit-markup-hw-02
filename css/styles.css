@@ -3,10 +3,14 @@
   --main-text-color: #212121;
   --basic-text-color: #757575;
   --additional-text-color: #ffffff;
+  --background-main-color: #e5e5e5;
+  --background-additional-color: #2f303a;
+  --background-button-color: #f5f4fa; 
+
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: #e5e5e5;
+  background: var(--background-main-color)
   color: var(--main-text-color);
 }
 .link {
@@ -35,7 +39,7 @@ body {
   color: var(--brand-color);
 }
 .section1 {
-  background: #2f303a;
+  background: var(--background-additional-color)
 }
 .h1-style {
   font-weight: 900;
@@ -63,7 +67,7 @@ body {
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
-  background-color: #f5f4fa;
+  background-color: var(--background-button-color)
   border: none;
 }
 
@@ -85,7 +89,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  background-color: #2f303a;
+  background-color: var(--background-additional-color)
   color: var(--main-text-color);
 }
 .footer-txt-style .graytxt:hover,
